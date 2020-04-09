@@ -1,9 +1,12 @@
 /*
-main color #1f254e*/
+main color #1f254e
+rgba(31, 37, 78, 0.808)
+*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: source sans pro;
 }
 html{
     font-size: 10px
@@ -15,7 +18,7 @@ h2,h1,h3{
     color: #1f254e;
 }
 h2{
-    font-size: 3.2rem;
+    font-size: 3.5rem;
 }
 p{
     font-size: 1.5rem;
@@ -59,5 +62,76 @@ p{
     background: linear-gradient(to right,#f04393,#f9c449) ;
     width: 50%;
     border-radius: 1000px;
-  
+}
+.pallets__display{
+display: flex;
+justify-content: space-around;
+flex-flow: row wrap;
+margin-top: 5rem;
+}
+.pallets__display--conteiner{
+    display: block;
+    width: 21.5rem;
+    height:23.5rem;
+    
+    
+    
+}
+.pallets__display--background{
+    width: 18.5rem;
+    height:18.5rem;
+    border-radius: 100px;
+    display: block;
+
+}
+
+.pallets__display--text{
+    display:inline-block;
+    text-align: left;
+    border: 1px solid rgba(102, 102, 102, 0.171);
+    margin-top: 0.6rem;
+    margin-left: 1rem;
+    padding: 0.5rem 5rem .5rem 2.5rem;
+    border-radius: 1050px;
+}
+.pallets__display--text h4{
+    font-size: 1.5rem;
+    color:rgba(58, 58, 75, 0.801);
+    
+}
+.pallets__display--text ul{
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    color: rgba(119, 117, 117, 1);
+    
+    font-size: 1.4rem;
+}
+.pallets__display--text ul li{
+    display: inline-block;
+}
+.pallets__display--text ul li:last-child{
+    margin-left: 1rem;
+    color: rgb(128, 128, 128);
+}
+
+/*background{ */
+.hot-1{
+    background: linear-gradient(#fec194,#f04393);
+}
+.hot-2{
+    background: linear-gradient(#00ffff,#f9c449);
+}
+.hot-3{
+    background: linear-gradient(#f04393,#f9c449);
+}
+
+.hot-4{
+    background: linear-gradient(#f04393, #ff2525);
+}
+/*line 2*/
+.hot-5{
+    background: linear-gradient(#240e88,#ff2525);
+}
+.pallets__display--background:first-child:hover{
+    background: black;
 }
