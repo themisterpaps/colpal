@@ -20,6 +20,9 @@ h2,h1,h3{
 h2{
     font-size: 3.5rem;
 }
+a{
+    text-decoration: none;
+}
 p{
     font-size: 1.5rem;
     font-family:source sans pro;
@@ -42,7 +45,7 @@ p{
     padding-left: 2rem;;
 }
 .body{
-    width: 130.0rem;
+    max-width: 130.0rem;
     background: rgba(222, 184, 135, 0.151);
     margin: 0 auto;
     padding: 3rem 6rem;
@@ -89,9 +92,9 @@ margin-top: 5rem;
     display:inline-block;
     text-align: left;
     border: 1px solid rgba(102, 102, 102, 0.171);
-    margin-top: 0.6rem;
+    margin-top: 1rem;
     margin-left: 1rem;
-    padding: 0.5rem 5rem .5rem 2.5rem;
+    padding: 0.5rem 2.5rem .5rem 2.5rem;
     border-radius: 1050px;
 }
 .pallets__display--text h4{
@@ -103,17 +106,26 @@ margin-top: 5rem;
     font-family: 'Courier New', Courier, monospace;
     list-style-type: none;
     color: rgba(119, 117, 117, 1);
-    
     font-size: 1.4rem;
 }
 .pallets__display--text ul li{
     display: inline-block;
 }
 .pallets__display--text ul li:last-child{
-    margin-left: 1rem;
     color: rgb(128, 128, 128);
 }
+/*hover*/
+.pallets__display--background:first-child:hover{
+    background: black;
+}
 
+.hot-pallets__buttom{
+    display: inline-block;
+    margin-top: 50px;
+    margin-right:80px;
+    display: flex;
+    justify-content: flex-end;
+}
 /*background{ */
 .hot-1{
     background: linear-gradient(#fec194,#f04393);
@@ -126,12 +138,56 @@ margin-top: 5rem;
 }
 
 .hot-4{
-    background: linear-gradient(#f04393, #ff2525);
+    background: linear-gradient(#fc0061, #1fc9fd);
 }
 /*line 2*/
 .hot-5{
-    background: linear-gradient(#240e88,#ff2525);
+    background: linear-gradient(#ffe53b,#ff2525);
 }
-.pallets__display--background:first-child:hover{
-    background: black;
+.hot-6{
+    background: linear-gradient(#00c0ff,#421888);
 }
+.hot-7{
+    background: linear-gradient(#5efce8,#28c76f);
+}
+
+.hot-8{
+    background: linear-gradient(#f04393, #ff2525);
+}
+/*line 3*/
+.hot-9{
+    background: linear-gradient(#c73866,#ffdca2);
+}
+.hot-10{
+    background: linear-gradient(#f94a6b,#28c76f);
+}
+.hot-11{
+    background: linear-gradient(#f94a6b,#f8d90f);
+}
+
+.hot-12{
+    background: linear-gradient(#d0e6a5, #4aDEDE);
+}
+
+ 
+/*Buttom*/
+.buttom{
+    font-size: 2rem;
+    color: rgba(58, 58, 75, 0.884);
+    font-weight: 700;
+    text-transform: capitalize;
+    border: 2pt solid rgba(58, 58, 75, 0.884);
+    padding: 1rem 2.5rem;
+    border-radius: 500px;
+    transition: all 0.2s ease-in-out;
+}
+.buttom:hover{
+    color: #fff;
+    background:#1f254e;
+    border-color:#1f254e;
+} 
+/*
+.hot-7{
+    background: linear-gradient(#81fbb8,#28c76f);
+}
+*/
