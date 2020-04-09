@@ -37,19 +37,36 @@ p{
     background: #fff;
     display: flex;
     justify-content: space-between;
-    padding: 2rem 6rem;
+    padding: 2rem 7rem;
     box-shadow: 0px 2px 8px  rgba(0, 0, 0, 0.274);
 }
 .header__logo--left > div{
     display: inline-block;
     padding-left: 2rem;;
 }
+body{
+    background:linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.603)) ,url("../pattern.png") ;
+}
 .body{
     max-width: 130.0rem;
-    background: rgba(222, 184, 135, 0.151);
     margin: 0 auto;
     padding: 3rem 6rem;
 }
+/*Logos*/
+.header__logo{
+    width:17rem;
+}
+.header__github-logo{
+    width:13rem;
+}
+.header__pinterest-logo{
+    width:16rem;
+}
+.header__nav img:hover{
+    filter: opacity(0.8);
+
+}
+/* Pallets*/
 .pallets{
       padding-top: 3rem;
 }
@@ -75,17 +92,13 @@ margin-top: 5rem;
 .pallets__display--conteiner{
     display: block;
     width: 21.5rem;
-    height:23.5rem;
-    
-    
-    
+    height:23.5rem;   
 }
 .pallets__display--background{
     width: 18.5rem;
     height:18.5rem;
     border-radius: 100px;
     display: block;
-
 }
 
 .pallets__display--text{
