@@ -1,2 +1,4 @@
-<img src="assets/img/logo.svg></img>
+<p style="text-align:center">
+<img src="assets/img/logo.svg" width="500px"></img>
+ </p>         
 #colspan(build)
