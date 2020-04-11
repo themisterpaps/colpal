@@ -270,15 +270,16 @@ margin-top: 5rem;
     color: rgba(58, 58, 75, 0.884);
     font-weight: 700;
     text-transform: capitalize;
-    border: 2pt solid rgba(58, 58, 75, 0.884);
+    border: 2pt solid #1f254e;
     padding: 1rem 2.5rem;
     border-radius: 500px;
-    transition: all 0.2s ease-in-out;
+    transition: all .3s ease;
+    background: linear-gradient(to right bottom, transparent 0%, transparent 50% ,#1f254e 50% );
+    background-size: 300%;
 }
 .buttom:hover{
     color: #fff;
-    background:#1f254e;
-    border-color:#1f254e;
+    background-position: 100%;
 } 
 /*
 .hot-7{
