@@ -65,10 +65,10 @@ body{
 .header__nav{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 7rem;
+    padding: 2rem 9rem;
  
 }
-.header__logo--left > div{
+.header__logo--right > div{
     display: inline-block;
     padding-left: 2rem;;
 }
@@ -267,7 +267,7 @@ margin-top: 5rem;
 /*Buttom*/
 .buttom{
     font-size: 2rem;
-    color: rgba(58, 58, 75, 0.884);
+    color: #1f254e;
     font-weight: 700;
     text-transform: capitalize;
     border: 2pt solid #1f254e;

@@ -58,8 +58,8 @@ label input {
 }
 label input:checked + .menu {
   
-  box-shadow: 0 0 0 100vw rgba(5, 151, 224, 0.979), 0 0 0 100vh rgba(5, 151, 224, 0.979);
-  border-radius: 0;
+  box-shadow: 0 0 0 110vw rgba(5, 151, 224, 0.979), 0 0 0 110vh rgba(5, 151, 224, 0.979);
+  border-radius: 100px;
 }
 label input:checked + .menu .hamburger {
   -webkit-transform: rotate(45deg);
@@ -79,6 +79,7 @@ label input:checked + .menu + ul {
   opacity: 1;
 }
 label ul {
+  list-style: none;
   z-index: 200;
   position: absolute;
   top: 50%;
@@ -90,11 +91,24 @@ label ul {
   transition: .25s 0s ease-in-out;
 }
 label a {
-  margin-bottom: 1em;
+  font-weight: 500;
+  text-align: center;
+  font-size: 3.2rem;
+  background: linear-gradient(to right bottom, transparent 0%, transparent 50% ,#f19091 50% );
+  background-size: 300%;
+  padding: 15px 40px;
+  margin-bottom: 1.5rem;
   display: block;
-  color: #000;
+  color: #fff;
+  border-radius: 20px;
+  transition: all .4s ease;
   text-decoration: none;
 }
 label{
  background:linear-gradient(#4a60e0, #1ca7ec);
 }
+label a:hover{
+  color: rgb(233, 232, 232);
+  background-position: 100%;
+}
+
