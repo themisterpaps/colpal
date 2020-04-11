@@ -36,6 +36,14 @@ header{
     height: 100vh;
     position: relative;
 }
+body{
+    background:linear-gradient(to top,rgba(255, 255, 255, 0.55),rgba(255, 255, 255, 0.55)) ,url("../pattern.png") ;
+}
+.body{
+    max-width: 130.0rem;
+    margin: 0 auto;
+    padding: 3rem 6rem;
+}
 .header--text{
     position: absolute;
     top: 50%;
@@ -64,14 +72,7 @@ header{
     display: inline-block;
     padding-left: 2rem;;
 }
-body{
-    background:linear-gradient(rgba(255, 255, 255, 0.603),rgba(255, 255, 255, 0.603)) ,url("../pattern.png") ;
-}
-.body{
-    max-width: 130.0rem;
-    margin: 0 auto;
-    padding: 3rem 6rem;
-}
+
 /*Logos*/
 .header__logo{
     width:17rem;
@@ -107,9 +108,15 @@ body{
     border-radius: 1000px;
 }
 .hot-pallets__fish{
-    width: 50%;  
+    width: 55%;  
     display: block;
-  
+    position: relative;
+}
+.hot-pallets__fish img{
+    position: absolute;
+    width: 40rem;
+    top: -180%;
+    right: 15%;
 }
 
 .pallets__display{
@@ -126,18 +133,22 @@ margin-top: 5rem;
 .pallets__display--background{
     width: 18.5rem;
     height:18.5rem;
-    border-radius: 100px;
     display: block;
 }
-
+.rounded{
+    border-radius: 100px;
+}
+.curves{
+    border-radius: 15px;
+}
 .pallets__display--text{
     display:inline-block;
     text-align: left;
     border: 1px solid rgba(102, 102, 102, 0.171);
     margin-top: 1rem;
     margin-left: 1rem;
-    padding: 0.5rem 2.5rem .5rem 2.5rem;
-    border-radius: 1050px;
+    padding: 0.5rem 2rem .5rem 2rem;
+    width: 80%;
 }
 .pallets__display--text h4{
     font-size: 1.5rem;
@@ -167,6 +178,10 @@ margin-top: 5rem;
     margin-right:80px;
     display: flex;
     justify-content: center;
+}
+/*  Flat color*/
+.pallets__display{
+
 }
 /*background{ */
 .hot-1{
@@ -211,6 +226,43 @@ margin-top: 5rem;
     background: linear-gradient(#d0e6a5, #4aDEDE);
 }
 
+/* colors*/
+.col-1{
+    background-color: #421888;
+}
+.col-2{
+    background-color:#5efce8;
+}
+.col-3{
+    background-color:#c73866;
+}
+.col-4{
+    background-color: #ffdca2;
+}
+.col-5{
+    background-color:#28c76f;
+}
+.col-6{
+    background-color:#f8d90f;
+}
+.col-7{
+    background-color: #4aDEDE;
+}
+.col-8{
+    background-color:#ff2525;
+}
+.col-9{
+    background-color:#f04393;
+}
+.col-10{
+    background-color: #8e17b3;
+}
+.col-11{
+    background-color:#fc5ec7;
+}
+.col-12{
+    background-color:#f1fc5e;
+}
  
 /*Buttom*/
 .buttom{
