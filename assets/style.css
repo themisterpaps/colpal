@@ -20,7 +20,7 @@ h2,h1,h3{
     color: #1f254e;
 }
 h2{
-    font-size: 3.5rem;
+    font-size: 3.8rem;
 }
 a{
     text-decoration: none;
@@ -39,12 +39,15 @@ header{
     position: relative;
 }
 body{
+    
     background:linear-gradient(to top,rgba(255, 255, 255, 0.55),rgba(255, 255, 255, 0.55)) ,url("../pattern.png") ;
 }
 .body{
     max-width: 130.0rem;
     margin: 0 auto;
     padding: 3rem 6rem;
+    border-radius: 20px;
+    background: rgba(247, 247, 247, 0.500)
 }
 .header--text{
     position: absolute;
@@ -110,14 +113,14 @@ body{
     border-radius: 1000px;
 }
 .hot-pallets__fish{
-    width: 55%;  
+    width: 60%;  
     display: block;
     position: relative;
 }
 .hot-pallets__fish img{
     position: absolute;
-    width: 40rem;
-    top: -180%;
+    width: 45rem;
+    top: -190%;
     right: 15%;
 }
 
@@ -188,10 +191,19 @@ margin-top: 5rem;
 /* Quality section*/
 
 .quality{
-    background: linear-gradient(to right bottom, rgb(6, 119, 175),rgb(5, 151, 224)) ;
+    background: linear-gradient(120deg, rgb(6, 119, 175),rgb(5, 151, 224)) ;
     margin-bottom: 5rem;
-    padding: 10rem;
+    padding: 5rem 10rem 10rem 10rem;
     border-radius: 50px;
+}
+.quality h2{
+    padding: 0 0 4rem 0;
+    margin:0;
+    color:  rgb(236, 236, 236);
+    text-align: center;
+}
+.quality h3 {
+    color: rgba(58, 58, 75, 0.897)
 }
 .quality--flex{
     display: flex;
@@ -203,14 +215,26 @@ margin-top: 5rem;
     width: 200px;
     height: 200px;
     text-align: center;
-    background: rgba(236, 236, 236, 1);
+    background: rgb(236, 236, 236);
     border-radius: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.089);
+    transition: all 0.2s ease-in;
+}
+.quality--item:hover,.quality--item:active{
+    transform: translateY(-20px);
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.281);
+
+}
+.quality--item:hover i{
+    color: rgb(12, 137, 199);
 }
 .quality--item i{
     display: inline-block;
     margin-top: 10px;
     font-size: 8.5rem;
     color: rgb(6, 119, 175);
+    transition: all 0.2s ease-in;
+
 }
 .quality--item h3{
 

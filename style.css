@@ -77,11 +77,13 @@ label input:checked + .menu .hamburger:before {
 }
 label input:checked + .menu + ul {
   opacity: 1;
+  z-index: 200;
+
 }
 label ul {
   list-style: none;
-  z-index: 200;
-  position: absolute;
+  z-index: -200;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
