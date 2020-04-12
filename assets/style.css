@@ -188,7 +188,7 @@ margin-top: 5rem;
 /* Quality section*/
 
 .quality{
-    background: linear-gradient(rgb(5, 151, 224),rgb(5, 151, 224)) ;
+    background: linear-gradient(to right bottom, rgb(6, 119, 175),rgb(5, 151, 224)) ;
     margin-bottom: 5rem;
     padding: 10rem;
     border-radius: 50px;
@@ -199,15 +199,22 @@ margin-top: 5rem;
     align-items: center;  
 }
 .quality--item{
-    padding: 1rem 2rem;
+    padding: 1rem;
+    width: 200px;
+    height: 200px;
     text-align: center;
     background: rgba(236, 236, 236, 1);
+    border-radius: 10px;
 }
-.quality--item img{
-    font-size: 52pt;
+.quality--item i{
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 8.5rem;
+    color: rgb(6, 119, 175);
 }
 .quality--item h3{
-    font-size: 12pt;
+
+    font-size: 1.6rem;
 }
 
 /*background{ */
