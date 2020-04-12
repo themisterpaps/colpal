@@ -1,7 +1,9 @@
 /*
 main color #1f254e
 rgba(31, 37, 78, 0.808)
+main-blue: rgba(5, 151, 224)
 */
+
 *{
     margin: 0;
     padding: 0;
@@ -183,6 +185,31 @@ margin-top: 5rem;
 .pallets__display{
 
 }
+/* Quality section*/
+
+.quality{
+    background: linear-gradient(rgb(5, 151, 224),rgb(5, 151, 224)) ;
+    margin-bottom: 5rem;
+    padding: 10rem;
+    border-radius: 50px;
+}
+.quality--flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.quality--item{
+    padding: 1rem 2rem;
+    text-align: center;
+    background: rgba(236, 236, 236, 1);
+}
+.quality--item img{
+    font-size: 52pt;
+}
+.quality--item h3{
+    font-size: 12pt;
+}
+
 /*background{ */
 .hot-1{
     background: linear-gradient(#fec194,#f04393);
