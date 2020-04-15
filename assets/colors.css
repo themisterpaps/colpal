@@ -1,0 +1,240 @@
+/*--------------------------------*/
+/*------------Backgrounds---------*/
+/*--------------------------------*/
+.hot-1{
+    background: linear-gradient(#fec194,#f04393);
+}
+.hot-2{
+    background: linear-gradient(#00ffff,#f9c449);
+}
+.hot-3{
+    background: linear-gradient(#f04393,#f9c449);
+}
+
+.hot-4{
+    background: linear-gradient(#fc0061, #1fc9fd);
+}
+/*line 2*/
+.hot-5{
+    background: linear-gradient(#ffe53b,#ff2525);
+}
+.hot-6{
+    background: linear-gradient(#00c0ff,#421888);
+}
+.hot-7{
+    background: linear-gradient(#5efce8,#28c76f);
+}
+
+.hot-8{
+    background: linear-gradient(#f04393, #ff2525);
+}
+/*line 3*/
+.hot-9{
+    background: linear-gradient(#c73866,#ffdca2);
+}
+.hot-10{
+    background: linear-gradient(#f94a6b,#28c76f);
+}
+.hot-11{
+    background: linear-gradient(#f94a6b,#f8d90f);
+}
+
+.hot-12{
+    background: linear-gradient(#d0e6a5, #4aDEDE);
+}
+
+/* colors*/
+.col-1{
+    background-color: #1abc9c;
+}
+.col-2{
+    background-color:#2ecc71;
+}
+.col-3{
+    background-color:#3498db;
+}
+.col-4{
+    background-color: #ffdca2;
+}
+.col-5{
+    background-color:#28c76f;
+}
+.col-6{
+    background-color:#f8d90f;
+}
+.col-7{
+    background-color: #4aDEDE;
+}
+.col-8{
+    background-color:#ff2525;
+}
+.col-9{
+    background-color:#f04393;
+}
+.col-10{
+    background-color: #8e17b3;
+}
+.col-11{
+    background-color:#fc5ec7;
+}
+.col-12{
+    background-color:#f1fc5e;
+}
+/*----------Mono--------------*/
+  /*--------------------------------*/
+  /*-------------Line 2 ------------*/
+/*---------------------------------*/
+.col-a-1{
+    background-color: #142850;
+}
+.col-a-2{
+    background-color:#27496d;
+}
+.col-a-3{
+    background-color:#0c7b93;
+}
+.col-a-4{
+    background-color: #00a8cc;
+}
+.col-a-5{
+    background-color:#4bbfd9;
+}
+
+.col-b-1{
+    background-color: #098c98;
+}
+.col-b-2{
+    background-color:#0baab8;
+}
+.col-b-3{
+    background-color:#0ed6e9;
+}
+.col-b-4{
+    background-color: #76ecf7;
+}
+.col-b-5{
+    background-color:#a6f3fa;
+}
+
+.col-c-1{
+    background-color: #0eb250
+}
+.col-c-2{
+    background-color:#04ff6b;
+}
+.col-c-3{
+    background-color:#6affa7;
+}
+.col-c-4{
+    background-color: #94ffc5;
+}
+.col-c-5{
+    background-color:#d0ffe3;
+}
+
+
+  /*--------------------------------*/
+    /*-------------Line 2 ------------*/
+/*---------------------------------*/
+
+.col-d-1{
+    background-color: #462197;
+}
+.col-d-2{
+    background-color:#602dce;
+}
+.col-d-3{
+    background-color:#8962dd;
+}
+.col-d-4{
+    background-color: #9e7ee3;
+}
+.col-d-5{
+    background-color:#c8b6ef;
+}
+
+.col-e-1{
+    background-color: #900d11;
+}
+.col-e-2{
+    background-color:#de141a;
+}
+.col-e-3{
+    background-color:#ed292e;
+}
+.col-e-4{
+    background-color: #ee484d;
+}
+.col-e-5{
+    background-color:#f48689;
+}
+
+.col-f-1{
+    background-color: #6f500d;
+}
+.col-f-2{
+    background-color:#ac7c14;
+}
+.col-f-3{
+    background-color:#e8b23e;
+}
+.col-f-4{
+    background-color: #fac854;
+}
+.col-f-5{
+    background-color:#edc46c;
+}
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+
+.col-g-1{
+    background-color: #323d51;
+}
+.col-g-2{
+    background-color:#4b5d7b;
+}
+.col-g-3{
+    background-color:#5f759a;
+}
+.col-g-4{
+    background-color: #92a2bc;
+}
+.col-g-5{
+    background-color:#a7b4c9;
+}
+
+.col-h-1{
+    background-color: #7b0961;
+}
+.col-h-2{
+    background-color:#ca0e9f;
+}
+.col-h-3{
+    background-color:#ef1cbf;
+}
+.col-h-4{
+    background-color: #f24ccc;
+}
+.col-h-5{
+    background-color:#f78bde;
+}
+
+.col-i-1{
+    background-color: #545426;
+}
+.col-i-2{
+    background-color:#9a9946;
+}
+.col-i-3{
+    background-color:#b0af52;
+}
+.col-i-4{
+    background-color: #bbba69;
+}
+.col-i-5{
+    background-color:#cbca8c;
+}
