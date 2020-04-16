@@ -289,22 +289,65 @@ margin-top: 5rem;
 /*Buttom*/
 .buttom{
     font-size: 2rem;
-    color: #1f254e;
     font-weight: 700;
     text-transform: capitalize;
-    border: 2pt solid #1f254e;
     padding: 1rem 2.5rem;
     border-radius: 500px;
     transition: all .3s ease;
-    background: linear-gradient(to right bottom, transparent 0%, transparent 50% ,#1f254e 50% );
-    background-size: 300%;
+   
 }
-.buttom:hover{
+.buttom__normal:hover{
     color: #fff;
     background-position: 100%;
 }
-/*
-.hot-7{
-    background: linear-gradient(#81fbb8,#28c76f);
+.buttom__normal{
+    border: 2pt solid #1f254e;
+    color: #1f254e;
+    background: linear-gradient(to right bottom, transparent 0%, transparent 50% ,#1f254e 50% );
+    background-size: 300%;
 }
-*/
+.buttom__closed__white{
+    border: 2pt solid #ffffff;
+    color: #498adf;
+    background: linear-gradient(to right bottom, #fff 0%, #fff 50% ,#498adf 50% );
+    background-size: 300%;
+   
+}
+.buttom__closed__white:hover{
+    color: #fff;
+    background-position: 100%;
+}
+/*--------------------------------*/
+/*-------------Quotes-------------*/
+/*--------------------------------*/
+
+.home_quote--Box{
+    background: url(img/icon-4.svg) no-repeat,no-repeat  50% 50% linear-gradient(to right bottom,rgb(115, 194, 240),rgb(35, 51, 210)) content-box;
+    background-position:right;
+    height: 32rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.home_quote--content{
+    width: 55%;
+    margin-left: 10rem;
+}
+.home_quote--content__q{
+    font-size: 4.2rem;
+     font-weight: 700;
+    color: #ffffff;
+}
+.home_quote--content span{
+    display: block;
+    font-size: 1.8rem;
+    padding: 1rem 0 0 0;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.616);
+}
+.home_quote--content span::after, .home_quote--content span::before{
+    content: " - ";
+}
+/*--------------------------------*/
+/*-------------footer-------------*/
+/*--------------------------------*/
