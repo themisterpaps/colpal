@@ -24,7 +24,7 @@ h2,h1,h3{
     color: #1f254e;
 }
 h2{
-    font-size: 3.8rem;
+    font-size: 4.6rem;
 }
 a{
     text-decoration: none;
@@ -103,33 +103,36 @@ body{
 /*--------------------------------*/
 .pallets{
       padding-top: 3rem;
+      margin-bottom: 10rem;
 }
 .hot-pallets{
     margin-bottom: 8rem;
 }
 .hot-pallets__info{
     display: flex;
-    width: 100%;
+    margin-bottom: 2.5rem;
+    
 }
 .hot-pallets__info p{
-    width: 50%;
+    flex: 1;
 }
 .hot-pallets__gradient{
     display: block;
     background: linear-gradient(to right,#f04393,#f9c449) ;
-    width: 50%;
+    flex: 1.2;
     border-radius: 1000px;
 }
 .hot-pallets__fish{
     width: 60%;
     display: block;
     position: relative;
+    padding-bottom: 120px;
 }
 .hot-pallets__fish img{
     position: absolute;
-    width: 45rem;
-    top: -190%;
-    right: 15%;
+   width: 82%;
+   transform: translate(10%,-55%);
+   
 }
 
 .pallets__display{
@@ -226,7 +229,6 @@ margin-top: 5rem;
 }
 /*  Flat color*/
 .pallets__display{
-
 }
 /*--------------------------------*/
 /*------Quality / Features--------*/
@@ -234,7 +236,7 @@ margin-top: 5rem;
 .quality{
     background: linear-gradient(120deg, rgb(6, 119, 175),rgb(5, 151, 224)) ;
     margin-bottom: 5rem;
-    padding: 5rem 10rem 10rem 10rem;
+    padding: 2.5rem 5rem 8rem 5rem;
     border-radius: 50px;
 }
 .quality h2{
@@ -253,8 +255,8 @@ margin-top: 5rem;
 }
 .quality--item{
     padding: 1rem;
-    width: 200px;
-    height: 200px;
+    width: 18rem;
+    height: 18rem;
     text-align: center;
     background: rgb(236, 236, 236);
     border-radius: 10px;
@@ -283,8 +285,9 @@ margin-top: 5rem;
 
 .hot-pallets__mono{
     display: block;
-    flex: 0.9;
+    flex: 1;
     transform: translateY(-40%);
+    margin-bottom: -100px;
     }
 /*Buttom*/
 .buttom{
