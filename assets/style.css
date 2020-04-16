@@ -176,6 +176,9 @@ margin-top: 5rem;
     display: flex;
     flex-direction: column;
 }
+.pallets__display--conteiner__mono > span:hover{
+    background: #000;
+}
 
 .rounded{
     border-radius: 100px;
@@ -275,9 +278,14 @@ margin-top: 5rem;
 
 }
 .quality--item h3{
-
     font-size: 1.6rem;
 }
+
+.hot-pallets__mono{
+    display: block;
+    flex: 0.9;
+    transform: translateY(-40%);
+    }
 /*Buttom*/
 .buttom{
     font-size: 2rem;
