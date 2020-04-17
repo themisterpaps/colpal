@@ -102,8 +102,10 @@ body{
 /*------------***Pallets----------*/
 /*--------------------------------*/
 .pallets{
-      padding-top: 3rem;
-      margin-bottom: 10rem;
+      padding-top: 3rem;     
+}
+.pallets:not(:last-child){
+    margin-bottom: 10rem;
 }
 .hot-pallets{
     margin-bottom: 8rem;
@@ -354,3 +356,25 @@ margin-top: 5rem;
 /*--------------------------------*/
 /*-------------footer-------------*/
 /*--------------------------------*/
+.footer{
+    height: 8rem;
+    background:  linear-gradient( rgb(10, 107, 154),rgb(69, 108, 189));
+    color: #fff;
+    text-align: center;
+    padding: 2.2rem;
+    margin-top: 2rem;
+}
+.footer img{
+    height: 2.6rem;
+}
+.footer--logo{
+    display: block;  
+    opacity: 0.88;
+}
+.footer h6, .footer a{
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: 0.8pt;
+    opacity: 0.88;
+}
