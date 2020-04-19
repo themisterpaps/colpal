@@ -357,24 +357,38 @@ margin-top: 5rem;
 /*-------------footer-------------*/
 /*--------------------------------*/
 .footer{
-    height: 8rem;
-    background:  linear-gradient( rgb(10, 107, 154),rgb(69, 108, 189));
+    height: 8.5rem;
+    background:linear-gradient(to right bottom,#6ab3ed,#3c4cf3);
     color: #fff;
     text-align: center;
     padding: 2.2rem;
     margin-top: 2rem;
 }
 .footer img{
-    height: 2.6rem;
+    height: 2.8rem;
 }
 .footer--logo{
     display: block;  
-    opacity: 0.88;
 }
-.footer h6, .footer a{
-    font-size: 1.2rem;
+.footer h6, .footer--mrpaps{
+    font-size: 1.3rem;
     font-weight: normal;
     color: #fff;
-    letter-spacing: 0.8pt;
-    opacity: 0.88;
+    letter-spacing: 0.6pt;
+    padding: 0.5rem
+
+}
+.footer--mrpaps{
+    color: #1f254e;
+    background: #e6e6e6;
+    padding: 2px 5px;
+    border-radius: 3px;
+    transition: all 0.25s;
+    display: inline-block;
+}
+.footer--mrpaps:hover{
+    background: none;
+    transform: scale(1.1) rotate(-5deg);
+    border: 1px solid #fff;
+    color: #fff
 }
