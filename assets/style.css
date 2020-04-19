@@ -43,15 +43,14 @@ p{
     position: relative;
 }
 body{
-
-    background:url("../pattern.png") ;
+    background: linear-gradient(rgba(255, 255, 255, 0.473),rgba(255, 255, 255, 0.486)),url("../pattern.png") ;
 }
 .body{
     max-width: 128.0rem;
     margin: 0 auto;
     padding: 3rem 5rem;
     border-radius: 20px;
-    background: rgba(236, 236, 236, 0.5)
+    background: rgba(236, 236, 236, 0.223)
 }
 .header--text{
     position: absolute;
