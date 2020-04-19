@@ -36,7 +36,7 @@ p{
     letter-spacing: 1.2pt;
     color: rgba(31, 37, 78, 0.808);
 }
-header{
+.header--bg{
     background: url(img/bg1.svg) no-repeat 100% 100%;
     background-size: 90rem;
     height: 100vh;
@@ -44,14 +44,14 @@ header{
 }
 body{
 
-    background:linear-gradient(to top,rgba(255, 255, 255, 0.55),rgba(255, 255, 255, 0.55)) ,url("../pattern.png") ;
+    background:url("../pattern.png") ;
 }
 .body{
-    max-width: 130.0rem;
+    max-width: 128.0rem;
     margin: 0 auto;
-    padding: 3rem 6rem;
+    padding: 3rem 5rem;
     border-radius: 20px;
-    background: rgba(247, 247, 247, 0.500)
+    background: rgba(236, 236, 236, 0.5)
 }
 .header--text{
     position: absolute;
@@ -94,7 +94,7 @@ body{
 .header__pinterest-logo{
     width:16rem;
 }
-.header__nav img:hover{
+.header__logo--right img:hover{
     filter: opacity(0.8);
 
 }
@@ -326,13 +326,15 @@ margin-top: 5rem;
 /*-------------Quotes-------------*/
 /*--------------------------------*/
 
-.home_quote--Box{
-    background: url(img/icon-4.svg) no-repeat,no-repeat  50% 50% linear-gradient(to right bottom,rgb(115, 194, 240),rgb(35, 51, 210)) content-box;
-    background-position:right;
-    height: 32rem;
+.home_quote--Box{  
     border-radius: 10px;
     display: flex;
     align-items: center;
+}
+.home_quote--Box__home{
+    background: url(img/icon-4.svg) no-repeat,no-repeat  50% 50% linear-gradient(to right bottom,rgb(115, 194, 240),rgb(35, 51, 210)) content-box;
+    height: 32rem;
+    background-position:right;
 }
 .home_quote--content{
     width: 55%;
