@@ -198,6 +198,18 @@ margin-top: 5rem;
 
 .pallets__display--conteiner__mono >span{
     display: block;
+    text-align: center;
+}
+.pallets__display--conteiner__mono > span > p{
+    font-size: 14pt;
+    font-weight: 500;
+    transform: translateY(10%);
+    opacity:0.08;
+    transition: all .2s ease-in-out;
+}
+.pallets__display--conteiner__mono > span:first-child p{
+    transform: translateY(40%);
+    font-weight: 700;
 }
 .pallets__display--conteiner__mono{
     display: block;
@@ -206,7 +218,6 @@ margin-top: 5rem;
 }
 .pallets__display--conteiner__mono > span:not(:first-child){
     flex: 1;
-
 }
 .pallets__display--conteiner__mono >span:first-child{
     flex: 1.5;
@@ -216,10 +227,25 @@ margin-top: 5rem;
     display: flex;
     flex-direction: column;
 }
-.pallets__display--conteiner__mono > span:hover{
-    background: #000;
+/***********************/
+/*********Hovers***********/
+
+.pallets__display--conteiner__mono > span:hover > p{
+    opacity: 0.95;
+}
+.pallets__display--conteiner__mono > span:active > p{
+    opacity: 0.95;
+    transform: scale(1.2)
 }
 
+
+/***********************/
+.black,.black> span >p {
+    color: #000 ;
+}
+.white,.white> span >p {
+    color: #fff;
+}
 .rounded{
     border-radius: 100px;
 }
