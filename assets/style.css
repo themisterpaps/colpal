@@ -151,11 +151,47 @@ margin-top: 5rem;
     width: 18.5rem;
     height:18.5rem;
     display: block;
+    position: relative;
 }
 /*hover*/
-.pallets__display--background:first-child:hover{
-    background: black;
+.flat-colors--copy{
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 55%;
+    left: 50%;
+    text-align: center;
+    transition: opacity .3s ease-in-out, filter .3s ease-in-out, transform .1s ease-in-out;   
 }
+.relative{
+    position: relative;
+}
+.flat-colors--copy__img{
+    width: 6rem;
+}
+
+.flat-colors--copy p{
+    opacity: 0;
+    font-weight: 500;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.pallets__display--background:first-child:hover {
+    filter: brightness(1.085);
+}
+.pallets__display--background:first-child:hover .flat-colors--copy{
+    opacity: 0.80;
+}
+.pallets__display--background:first-child:active .flat-colors--copy {
+    transform: translate(-50%,-50%) scale(1.5);
+    opacity: 0;
+}
+.pallets__display--background:first-child:active .flat-colors--copy p{
+    opacity: 1;
+}
+
+
 /*--------------------------------*/
 /*------------MonoColors----------*/
 /*--------------------------------*/
