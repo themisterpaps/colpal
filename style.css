@@ -12,8 +12,8 @@ body {
 
 label .menu {
   position: fixed;
-  right: -110px;
-  top: -100px;
+  right: -120px;
+  top: -115px;
   z-index: 100;
   width: 200px;
   height: 200px;
@@ -26,8 +26,8 @@ label .menu {
 }
 label .hamburger {
   position: absolute;
-  top: 135px;
-  left: 50px;
+  top: 145px;
+  left: 40px;
   width: 30px;
   height: 2px;
   background: rgb(255, 255, 255);
@@ -112,4 +112,6 @@ label a:hover{
   color: rgb(233, 232, 232);
   background-position: 100%;
 }
+  
+
 

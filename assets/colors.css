@@ -10,7 +10,9 @@
 .hot-3{
     background: linear-gradient(#f04393,#f9c449);
 }
-
+.bg-1{
+    background: no-repeat  50% 50% linear-gradient(to right bottom,rgb(115, 194, 240),rgb(35, 51, 210)) ;
+}
 .hot-4{
     background: linear-gradient(#fc0061, #1fc9fd);
 }
