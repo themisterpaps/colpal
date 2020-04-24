@@ -387,19 +387,25 @@ margin-top: 5rem;
 /*-------------Quotes-------------*/
 /*--------------------------------*/
 
-.home_quote--Box{  
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-}
 .home_quote--Box__home{
-    background: url(img/icon-4.svg) no-repeat,no-repeat  50% 50% linear-gradient(to right bottom,rgb(115, 194, 240),rgb(35, 51, 210)) content-box;
-    height: 32rem;
+    background:no-repeat  50% 50% linear-gradient(to right bottom,rgb(115, 194, 240),rgb(35, 51, 210)) content-box;
     background-position:right;
 }
+
 .home_quote--content{
-    width: 55%;
-    margin-left: 10rem;
+    height: 24rem;   
+}
+.temp{
+display: flex;
+align-items: center ;
+justify-content: space-between;
+
+width: 100%;
+height: 100%;;
+background-position: 100% 100% ;
+}
+.home_quote--Box__content{
+    margin: 10rem;
 }
 .home_quote--content__q{
     font-size: 4.2rem;
@@ -416,6 +422,26 @@ margin-top: 5rem;
 .home_quote--content span::after, .home_quote--content span::before{
     content: " - ";
 }
+
+/********Backgrounds*************/
+/* Salvador Dalí - Artist */
+.home_quote--Box__image__gradients{
+    background: url("../assets/img/icon-2.svg") no-repeat;
+    background-position: 100% 100% ;
+    background-size: 28%;
+  
+}
+.home_quote--Box__image__flatui{
+    background: url("../assets/img/icon-5.svg") no-repeat;
+    background-position: 100% 100% ;
+    background-size: 24%;
+}
+.home_quote--Box__image__mono{
+    background: url("../assets/img/icon-6.svg") no-repeat;
+    background-position: 100% 100% ;
+    background-size: 28%;
+}
+
 /*--------------------------------*/
 /*-------------footer-------------*/
 /*--------------------------------*/
@@ -512,11 +538,11 @@ margin-top: 5rem;
     }
     .nav--title img{
         height: 3.5rem !important;
-    }
+    }    
     
 }
 @media(max-width:528px ){
-    .pallets__display--conteiner{
+    .pallets__display--conteiner, .pallets__display{
         flex-direction: column;
     }
     .pallets__display--background{
@@ -529,6 +555,15 @@ margin-top: 5rem;
     .pallets__display--text{
     margin-top: 1.5rem;
     margin-left: 3rem;
+    }
+    .home_quote--content__q{
+        font-size: 2.8rem !important;
+    }
+    .home_quote--content span{
+        font-size: 1.2rem !important;
+    }
+    .hot-pallets__fish {
+        display: none;
     }
 }
 @media(max-width:744px ){
@@ -545,9 +580,58 @@ margin-top: 5rem;
         .pallets__display--conteiner:last-child{
        display: block !important; 
     }
+    .home_quote--Box__content{
+        margin: 3rem;
+    }
+    .home_quote--content__q{
+        font-size: 3rem;
+    }
+    .home_quote--content span{
+        font-size: 1.2rem;
+    }
+    .temp{
+        background-size: 45% !important;
+    }  
+    .pallets__display--conteiner__mono  {
+        margin-top: 5rem;
+    } 
+   
+    .pallets__display .pallets__display--conteiner__mono:last-child{
+        display: flex !important;
+    }
+    
 }
 @media(max-width:959px ){
-    .pallets__display--conteiner:last-child{
+ .pallets__display--conteiner:last-child{
+        display: none;
+    }
+    .temp{
+        background-size: 30%;
+    }
+    .hot-pallets__gradient_index{
+        display: none;
+    } 
+    .hot-pallets__info{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hot-pallets__fish {
+        position: static;
+        margin-top: 15rem;
+        margin-bottom: 10rem;
+        margin-left:-15rem; padding: 0;
+        transform: scale(1.5) translateX(15%);   
+    }
+     .hot-pallets__mono__index{
+        display: none;
+
+        
+    } 
+    
+}
+@media(max-width:1059px ){
+.pallets__display .pallets__display--conteiner__mono:last-child{
         display: none;
     }
 }
