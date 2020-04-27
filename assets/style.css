@@ -55,12 +55,12 @@ body{
 .header--text{
     position: absolute;
     top: 50%;
-    left: 35%;
+    left: 36%;
     transform: translate(-50%,-50%);
 }
 .header--text__title{
     font-size: 8.5rem;
-    line-height: 7.2rem;
+    line-height: 6.8rem;
 }
 .header--text__buttom{
     margin-top: 5rem;
@@ -369,14 +369,14 @@ margin-top: 5rem;
 .buttom__normal{
     border: 2pt solid #1f254e;
     color: #1f254e;
-    background: linear-gradient(to right bottom, transparent 0%, transparent 50% ,#1f254e 50% );
+    background: linear-gradient(120deg, transparent 0%, transparent 50% ,#1f254e 50% );
     background-size: 300%;
 }
 .buttom__closed__white{
     border: 2pt solid #ffffff;
     color: #498adf;
     background: linear-gradient(to right bottom, #fff 0%, #fff 50% ,#498adf 50% );
-    background-size: 300%;
+    background-size: 100%;
    
 }
 .buttom__closed__white:hover{
@@ -539,13 +539,17 @@ background-position: 100% 100% ;
     }
     .nav--title img{
         height: 3.5rem !important;
-    }    
+    } 
+    .header--bg {
+        height: 85vh;
+
+    }   
     .header--bg h1{
-        font-size: 4rem !important;
+        font-size: 6rem !important;
         line-height:5rem;;
     }
     .header--bg .header__logo img{
-        width: 13rem;
+        width: 14rem;
     }
     .header__logo{
         width: 21rem;
@@ -585,13 +589,13 @@ background-position: 100% 100% ;
         text-transform: capitalize;
     }
     .header--bg{
-        background-size: 95%;
+        background-size: 110%;
     }
     .header__pinterest-logo{
        display: none !important;
      }
      .header__github-logo{
-         width: 08.5rem !important;
+         width: 08.2rem !important;
      }
      .header--bg .buttom{
         font-weight: 800;
