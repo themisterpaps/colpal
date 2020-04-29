@@ -132,20 +132,22 @@
 }
 
 .col-c-1{
-    background-color: #0eb250
+    background-color:#546811;
 }
 .col-c-2{
-    background-color:#04ff6b;
+    background-color: #697c12;
 }
 .col-c-3{
-    background-color:#6affa7;
+    background-color:#81971c;
 }
 .col-c-4{
-    background-color: #94ffc5;
+    background-color:#98aa11;
 }
 .col-c-5{
-    background-color:#d0ffe3;
+    background-color: #d2d83f
 }
+
+
 
 
   /*--------------------------------*/
@@ -252,4 +254,171 @@
 }
 .col-i-5{
     background-color:#cbca8c;
+}
+
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-j-1{
+    background-color: #7ee6e7;
+}
+.col-j-2{
+    background-color:#9aebec;
+}
+.col-j-3{
+    background-color:#b3f0f1;
+}
+.col-j-4{
+    background-color: #ccf6f5;
+}
+.col-j-5{
+    background-color:#e5fafb;
+}
+
+
+.col-k-1{
+    background-color:#777ace;
+}
+.col-k-2{
+    background-color:#888cd8;
+}
+.col-k-3{
+    background-color:#b5b0ed;
+}
+.col-k-4{
+    background-color: #cfc7ff;
+}
+.col-k-5{
+    background-color:#d9d3ff;
+}
+
+
+.col-l-1{
+    background-color:#915cc8;
+}
+.col-l-2{
+    background-color:#af71ea;
+}
+.col-l-3{
+    background-color:#bd8fde;
+}
+.col-l-4{
+    background-color:#d6a1e0;
+}
+.col-l-5{
+    background-color:#eab2e3;
+}
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-n-1{
+    background-color: #8d356f;
+}
+.col-n-5{
+    background-color:#ffb4b5;
+}
+.col-n-4{
+    background-color:#d6719d;
+}
+.col-n-3{
+    background-color:#b15694;
+}
+.col-n-2{
+    background-color:#8d408e;
+}
+
+
+.col-m-1{
+    background-color: #413e49;
+}
+.col-m-2{
+    background-color:#73616d;
+}
+.col-m-3{
+    background-color:#b38184;
+}
+.col-m-4{
+    background-color: #f0b39e;
+}
+.col-m-5{
+    background-color:#f7e3be;
+}
+
+
+.col-o-1{
+    background-color: #25083e;
+}
+.col-o-2{
+    background-color:#501e53;
+}
+.col-o-3{
+    background-color:#8d356f;
+}
+.col-o-4{
+    background-color: #dc698a;
+}
+.col-o-5{
+    background-color:#df7c99;
+}
+
+
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-p-1{
+    background-color: #f35ca1}
+.col-p-2{
+    background-color:#f27bb1;
+}
+.col-p-3{
+    background-color:#fca1ca;
+}
+.col-p-4{
+    background-color: #ffbedc;
+}
+.col-p-5{
+    background-color:#fee2f0;
+}
+
+
+.col-q-1{
+   background-color:#f92c6a;
+}
+.col-q-2{
+    background-color:#f95f98;
+}
+.col-q-3{
+     background-color: #f9b9e8;
+}
+.col-q-4{
+    background-color:#f9d1f2;
+}
+.col-q-5{
+    background-color:#ffe0ef;
+}
+
+
+.col-r-1{
+    background-color: #915cc8;
+}
+.col-r-2{
+    background-color:#a37bd6;
+}
+.col-r-3{
+    background-color:#bd8fde;
+}
+.col-r-4{
+    background-color: #d6a1e0;
+}
+.col-r-5{
+    background-color:#eab2e3;
 }
