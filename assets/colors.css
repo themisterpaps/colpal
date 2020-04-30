@@ -422,3 +422,337 @@
 .col-r-5{
     background-color:#eab2e3;
 }
+
+
+
+/*--------------------------------------
+*/
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-s-1{
+    background-color:#48b48b}
+.col-s-2{
+    background-color:#50e194;
+}
+.col-s-3{
+    background-color:#88ff9c;
+}
+.col-s-4{
+    background-color:#d7ffb1;
+}
+.col-s-5{
+    background-color:#fffcad;
+}
+
+
+.col-t-1{
+   background-color:#697c12;
+}
+.col-t-2{
+    background-color:#81971c;
+}
+.col-t-3{
+     background-color: #98aa11;
+}
+.col-t-4{
+    background-color:#bbcd32;
+}
+.col-t-5{
+    background-color:#d2d83f;
+}
+
+
+.col-u-1{
+    background-color: #296a0c;
+}
+.col-u-2{
+    background-color:#307b1c;
+}
+.col-u-3{
+    background-color:#3d8e16;
+}
+.col-u-4{
+    background-color: #4da51d;
+}
+.col-u-5{
+    background-color:#53b129;
+}
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-v-1{
+    background-color:#296a0c}
+.col-v-2{
+    background-color:#307b1c;
+}
+.col-v-3{
+    background-color:#3d8e16;
+}
+.col-v-4{
+    background-color:#4da51d;
+}
+.col-v-5{
+    background-color:#53b129;
+}
+
+
+.col-w-1{
+   background-color:#216651;
+}
+.col-w-2{
+    background-color:#3e9278;
+}
+.col-w-3{
+     background-color: #74baa0;
+}
+.col-w-4{
+    background-color:#b8d8c0;
+}
+.col-w-5{
+    background-color:#d0e0d3;
+}
+
+
+.col-x-1{
+    background-color: #3300aa;
+}
+.col-x-2{
+    background-color:#3344aa;
+}
+.col-x-3{
+    background-color:#3399aa;
+}
+.col-x-4{
+    background-color: #33ddaa;
+}
+.col-x-5{
+    background-color:#33FFaa;
+}
+
+ /*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-y-1{
+    background-color:#ff00aa}
+.col-y-2{
+    background-color:#ff33aa;
+}
+.col-y-3{
+    background-color:#ff66aa;
+}
+.col-y-4{
+    background-color:#ff88aa;
+}
+.col-y-5{
+    background-color:#ffaaaa;
+}
+
+
+.col-z-1{
+   background-color:#ff00ff;
+}
+.col-z-2{
+    background-color:#ff33ff;
+}
+.col-z-3{
+     background-color: #ff66ff;
+}
+.col-z-4{
+    background-color:#ff88ff;
+}
+.col-z-5{
+    background-color:#ffaaff;
+}
+
+
+.col-a-a-1{
+    background-color: #cc00bb;
+}
+.col-a-a-2{
+    background-color:#cc33bb;
+}
+.col-a-a-3{
+    background-color:#cc66bb;
+}
+.col-a-a-4{
+    background-color: #cc88bb;
+}
+.col-a-a-5{
+    background-color:#ccaabb;
+}
+
+
+
+/*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-a-b-1{
+    background-color:#ff0000}
+.col-a-b-2{
+    background-color:#ff3300;
+}
+.col-a-b-3{
+    background-color:#ff6600;
+}
+.col-a-b-4{
+    background-color:#ff9900;
+}
+.col-a-b-5{
+    background-color:#ffcc00;
+}
+
+
+.col-a-c-1{
+   background-color:#ff0055;
+}
+.col-a-c-2{
+    background-color:#ff3355;
+}
+.col-a-c-3{
+     background-color: #ff6655;
+}
+.col-a-c-4{
+    background-color:#ff9955;
+}
+.col-a-c-5{
+    background-color:#ffcc55;
+}
+
+
+.col-a-d-1{
+    background-color: #cc0011;
+}
+.col-a-d-2{
+    background-color:#cc3311;
+}
+.col-a-d-3{
+    background-color:#cc6611;
+}
+.col-a-d-4{
+    background-color: #cc9911;
+}
+.col-a-d-5{
+    background-color:#cccc11;
+}
+
+
+/*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-a-e-1{
+    background-color:#9900aa}
+.col-a-e-2{
+    background-color:#9933aa;
+}
+.col-a-e-3{
+    background-color:#9955aa;
+}
+.col-a-e-4{
+    background-color:#9988aa;
+}
+.col-a-e-5{
+    background-color:#99aaaa;
+}
+
+
+.col-a-f-1{
+   background-color:#9900ff;
+}
+.col-a-f-2{
+    background-color:#9933ff;
+}
+.col-a-f-3{
+     background-color: #9955ff;
+}
+.col-a-f-4{
+    background-color:#9988ff;
+}
+.col-a-f-5{
+    background-color:#99aaff;
+}
+
+
+.col-a-g-1{
+    background-color: #6600bb;
+}
+.col-a-g-2{
+    background-color:#6633bb;
+}
+.col-a-g-3{
+    background-color:#6655bb;
+}
+.col-a-g-4{
+    background-color: #6688bb;
+}
+.col-a-g-5{
+    background-color:#66aabb
+    ;
+}
+
+/*--------------------------------*/
+    /*-------------Line  ------------*/
+/*---------------------------------*/
+
+
+.col-a-h-1{
+    background-color:#3300ff}
+.col-a-h-2{
+    background-color:#3333ff;
+}
+.col-a-h-3{
+    background-color:#3355ff;
+}
+.col-a-h-4{
+    background-color:#33bbff;
+}
+.col-a-h-5{
+    background-color:#33eeff;
+}
+
+
+.col-a-i-1{
+   background-color:#0000bb;
+}
+.col-a-i-2{
+    background-color:#0033bb;
+}
+.col-a-i-3{
+     background-color: #0055bb;
+}
+.col-a-i-4{
+    background-color:#00bbbb;
+}
+.col-a-i-5{
+    background-color:#00eebb;
+}
+
+
+.col-a-j-1{
+    background-color: #000066;
+}
+.col-a-j-2{
+    background-color:#003366;
+}
+.col-a-j-3{
+    background-color:#008866;
+}
+.col-a-j-4{
+    background-color: #00bb66;
+}
+.col-a-j-5{
+    background-color:#00ee11
+    ;
+}
