@@ -1,5 +1,5 @@
 /*--------------------------------*/
-/*------------Backgrounds---------*/
+/*------------Gradients---------*/
 /*--------------------------------*/
 .hot-1{
     background: linear-gradient(#fec194,#f04393);
@@ -42,10 +42,120 @@
 }
 
 .hot-12{
-    background: linear-gradient(#d0e6a5, #4aDEDE);
+    background: linear-gradient(#d6a3dc, #a5dee5);
+}
+/*line 4*/
+.hot-13{
+    background: linear-gradient(#eabebf,#f7db70);
+}
+.hot-14{
+    background: linear-gradient(#f7db70,#a5dee5);
+}
+.hot-15{
+    background: linear-gradient(#eabebf,#d6a3dc);
 }
 
+.hot-16{
+    background: linear-gradient(#75cce8, #eabebf);
+}
+/*line 5*/
+.hot-17{
+    background: linear-gradient(#050831,#f946aa);
+}
+.hot-18{
+    background: linear-gradient(#42549f,#415ba6);
+}
+.hot-19{
+    background: linear-gradient(#f946aa,#42549f);
+}
+
+.hot-20{
+    background: linear-gradient(#0ea18f, #fb9469);
+}
+/*line 6*/
+.hot-21{
+    background: linear-gradient(#050831,#f946aa);
+}
+.hot-22{
+    background: linear-gradient(#f46a79,#415ba6);
+}
+.hot-23{
+    background: linear-gradient(#fab636,#1aa6b7);
+}
+
+.hot-24{
+    background: linear-gradient(#415ba6, #53a6d8);
+}
+/*line 7*/
+.hot-25{
+    background: linear-gradient(#050831,#d65c5b);
+}
+.hot-26{
+    background: linear-gradient(#ff414d,#154654);
+}
+.hot-27{
+    background: linear-gradient(#88cdf6,#42549f);
+}
+.hot-28{
+    background: linear-gradient(#0ea18f, #f9e173);
+}
+/*line 8*/
+.hot-29{
+    background: linear-gradient(#f2d414,#192473);
+}
+.hot-30{
+    background: linear-gradient(#a9f26f,#de1f6f);
+}
+.hot-31{
+    background: linear-gradient(#f0cd79,#083465);
+}
+.hot-32{
+    background: linear-gradient(#4fc2f1,#9c16d9);
+}
+/*line 9*/
+.hot-33{
+    background: linear-gradient(#f6e8b9,#8f7092);
+}
+.hot-34{
+    background: linear-gradient(#e2ad9f,#083465);
+}
+.hot-35{
+    background: linear-gradient(#98ebbd,#083465);
+}
+
+.hot-36{
+    background: linear-gradient(#e4be7f,#e1481e);
+}
+/*line 10*/
+.hot-37{
+    background: linear-gradient(#f0c634,#af22ea);
+}
+.hot-38{
+    background: linear-gradient(#80e4a8,#1c67a8);
+}
+.hot-39{
+    background: linear-gradient(#f8ca14,#df170a);
+}
+.hot-40{
+    background: linear-gradient(#fce0b9,#cf34fc);
+}
+/*line 11*/
+.hot-41{
+    background: linear-gradient(#eabebf,#f7db70);
+}
+.hot-42{
+    background: linear-gradient(#f7db70,#a5dee5);
+}
+.hot-43{
+    background: linear-gradient(#eabebf,#d6a3dc);
+}
+
+.hot-44{
+    background: linear-gradient(#75cce8, #eabebf);
+}
+/*---------------------------------*/
 /* Hot Pallets By flatUicolors.com*/
+/*--------------------------------*/
 .col-1{
     background-color: #1abc9c;
 }
