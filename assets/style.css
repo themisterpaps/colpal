@@ -206,6 +206,12 @@ margin-top: 5rem;
     transform: translateY(10%);
     opacity:0.08;
     transition: all .2s ease-in-out;
+    position: relative;
+}
+.pallets__display--conteiner__mono > span > p::before{
+   content: url(img/copy-2.svg);
+   display: inline-block;
+   margin-right: 4px;transform: translateY(5px)
 }
 .pallets__display--conteiner__mono > span:first-child p{
     transform: translateY(40%);
@@ -424,7 +430,7 @@ background-position: 100% 100% ;
 }
 
 /********Backgrounds*************/
-/* Salvador Dalí - Artist */
+/* Quotes Artist */
 .home_quote--Box__image__gradients{
     background: url("../assets/img/icon-2.svg") no-repeat;
     background-position: 100% 100% ;
