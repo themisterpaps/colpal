@@ -73,7 +73,7 @@ body{
 .header__nav{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 9rem;
+    padding: 2rem 9rem 2rem 4rem;
 
 }
 .header__logo--right > div{
@@ -610,18 +610,20 @@ background-position: 100% 100% ;
    
 }
 @media(min-width:425px){
-    @media(max-width:878px){
+    @media(max-width:1200px){
         h1{
-            font-size: 4rem !important;
-            line-height: 4rem !important;
+            font-size:11rem !important;
+            line-height: 10rem !important;
         }
         .header--text{
             left: 32% !important;
+            margin-left: 4rem;
         }
        .header--bg .buttom{
             font-weight: 800;
             font-size: 1.4rem;
         }
+        
     }}
 
 @media(max-width:744px ){
