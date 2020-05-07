@@ -119,7 +119,7 @@ body{
 }
 .hot-pallets__gradient{
     display: block;
-    background: linear-gradient(to right,#f04393,#f9c449) ;
+    background: linear-gradient(120deg,#c700e1,#7062ff,#6565fb,#2b97fc,#02c4e7,#17e5ce, #5efce8, #69ff6c, #c5e601,#c9e500, #e9c501, #fb6c66, #f82d98, #e830ce);
     flex: 1.2;
     border-radius: 1000px;
 }
