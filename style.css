@@ -1,15 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Cutive+Mono");
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-
-body {
-  overflow-x: hidden;
-}
-
 label .menu {
   position: fixed;
   right: -120px;
@@ -92,7 +80,7 @@ label ul {
   transition-delay: 0.2s;
 }
 label a {
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   font-size: 3.2rem;
   background: linear-gradient(120deg, transparent 0%, transparent 50% ,#f19091 50% );
