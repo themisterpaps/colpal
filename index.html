@@ -33,12 +33,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!--================stylesheet======================-->
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.0/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/font/ionicons.css">
     <link rel="stylesheet" href="assets/colors.css">
     <title>ColPal &mdash; The Colors Lives here</title>
 </head>
 
 <body>
+    <div class="loading">
+        <div class="load1">
+            <div class="loader"></div>
+        </div>
+    </div>
     <header class="header header--bg">
         <nav class="header__nav">
             <div class="header__logo">
@@ -46,14 +51,14 @@
             </div>
             <div></div>
             <div class="header__logo--right">
-                <div class="header__pinterest-logo">
+                <!-- <div class="header__pinterest-logo">
                     <a href="https://pinterest.com/misterpaps"> <img src="assets/img/pinterest.svg"
                             alt=" instagram-buttom"></a>
                 </div>
                 <div class="header__github-logo">
                     <a href="http://github.com/henriquechigumane"><img src="assets/img/github.svg"
                             alt=" github-buttom"></a>
-                </div>
+                </div> -->
 
                 <div class="menu--box">
                     <label class="menu--box">
@@ -85,7 +90,7 @@
             <p class="header--text__paragrph">Flat design or flat UI colors, gradients are quite popular in web
                 design,today where bold, bright colors are used to create clean, simple interfaces.</p>
             <div class="header--text__buttom">
-                <a class="buttom__normal buttom" href="gradients/gradients.html">Get Started</a>
+                <a class="buttom__normal buttom" href="gradients/">Get Started</a>
             </div>
         </div>
     </header>
@@ -320,7 +325,7 @@
 
                 </div>
                 <div class="hot-pallets__buttom">
-                    <a class="buttom__normal buttom" href="gradients/gradients.html">load More</a>
+                    <a class="buttom__normal buttom" href="gradients/">load More</a>
                 </div>
             </div>
         </section>
@@ -822,5 +827,5 @@
         document.body.removeChild(temp_TextArea);
     }
 </script>
-
+<script src="assets/main.js"></script>
 </html>
