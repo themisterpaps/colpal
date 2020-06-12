@@ -101,8 +101,6 @@ body{
   margin: 88px auto;
   position: relative;
   font-size: 11px;
-  -webkit-transform: translateZ(0);
-  -ms-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-animation-delay: -0.16s;
   animation-delay: -0.16s;
@@ -159,10 +157,14 @@ body{
     background: linear-gradient(rgba(228, 228, 228, 0.2), rgba(218, 218, 218, 0.267)), url('../pattern.png');
 }
 .hidden{ 
-  animation: faded .2s;
-  animation-fill-mode: forwards;
+  -webkit-animation: faded .2s; 
+          animation: faded .2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
   z-index: -1;
  
+}
+@-webkit-keyframes faded {0%{opacity: 1;} 90%{opacity: 0.2;}100%{opacity: 0;display: none; }
 }
 @keyframes faded {0%{opacity: 1;} 90%{opacity: 0.2;}100%{opacity: 0;display: none; }
 }   
@@ -186,7 +188,8 @@ body{
     width:16rem;
 }
 .header__logo--right img:hover{
-    filter: opacity(0.8);
+    -webkit-filter: opacity(0.8);
+            filter: opacity(0.8);
 
 }
 /*--------------------------------*/
@@ -253,7 +256,9 @@ margin-top: 5rem;
     top: 55%;
     left: 50%;
     text-align: center;
-    transition: opacity .3s ease-in-out, filter .3s ease-in-out, transform .1s ease-in-out;   
+    transition: opacity .3s ease-in-out, transform .1s ease-in-out, -webkit-filter .3s ease-in-out;
+    transition: opacity .3s ease-in-out, filter .3s ease-in-out, transform .1s ease-in-out;
+    transition: opacity .3s ease-in-out, filter .3s ease-in-out, transform .1s ease-in-out, -webkit-filter .3s ease-in-out;   
 }
 .relative{
     position: relative;
@@ -270,7 +275,8 @@ margin-top: 5rem;
 }
 
 .pallets__display--background:first-child:hover {
-    filter: brightness(1.085);
+    -webkit-filter: brightness(1.085);
+            filter: brightness(1.085);
 }
 .pallets__display--background:first-child:hover .flat-colors--copy{
     opacity: 0.80;
@@ -588,7 +594,6 @@ label .menu {
     height: 200px;
     background: rgba(5, 151, 224, 0.979);
     border-radius: 50% 50% 50% 50%;
-    -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     box-shadow: 1px 1px 10px rgba(133, 133, 133, 0.712);
     cursor: pointer;
@@ -601,13 +606,10 @@ label .menu {
     height: 2px;
     background: rgb(255, 255, 255);
     display: block;
-    -webkit-transform-origin: center;
-            transform-origin: center;
-    -webkit-transition: .5s ease-in-out;
+    transform-origin: center;
     transition: .5s ease-in-out;
   }
   label .hamburger:after, label .hamburger:before {
-    -webkit-transition: .5s ease-in-out;
     transition: .5s ease-in-out;
     content: "";
     position: absolute;
@@ -631,17 +633,14 @@ label .menu {
     border-radius: 100px;
   }
   label input:checked + .menu .hamburger {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   label input:checked + .menu .hamburger:after {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
     bottom: 0;
   }
   label input:checked + .menu .hamburger:before {
-    -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
+    transform: rotate(90deg);
     top: 0;
   }
   label input:checked + .menu + ul {
@@ -694,9 +693,10 @@ label .menu {
         width: 30%;
         height: 5pt;
         background: #1f254e;
-        display: block;position: absolute;
-       
-    }
+        display: block;
+        position: absolute;
+        
+}
     .underline--1::before{
         content: "";
         width: 5%;
