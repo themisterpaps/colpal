@@ -4,7 +4,7 @@ function onReady(callback) {
         window.clearInterval(intervalId);
         callback.call(this);
       }
-    }, 1000);
+    }, 1800);
   }
   
   function setVisible(selector, visible) {
