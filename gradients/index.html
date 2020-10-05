@@ -913,7 +913,7 @@
 <script src="../assets/main.js"></script>
 <script type="text/javascript">
     function copyToClipboard(color) {
-        var temp_TextArea = document.createElement("textarea");
+        let temp_TextArea = document.createElement("textarea");
         temp_TextArea.value = color;
         document.body.appendChild(temp_TextArea);
         temp_TextArea.select();
