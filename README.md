@@ -33,7 +33,7 @@ At this moment there are no requirements (but now I'm working in a new version o
       .col-a-4{background-color: #00a8cc;}
       .col-a-5{background-color:#4bbfd9;}
 
-      /*I recomemnd a schema of 5 colors*/  
+      /*I recommend a schema of 5 colors*/  
    ```
 **Obs:** Please don't forget to respect the order.
  # License
