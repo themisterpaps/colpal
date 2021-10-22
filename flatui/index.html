@@ -1297,17 +1297,17 @@
                 class="footer--mrpaps"> Mister Paps</a>.
         </h6>
     </footer>
+    
+    <script src="../assets/main.js"></script>
+    <script type="text/javascript">
+        function copyToClipboard(color) {
+            var temp_TextArea = document.createElement("textarea");
+            temp_TextArea.value = color;
+            document.body.appendChild(temp_TextArea);
+            temp_TextArea.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp_TextArea);
+        }
+        </script>
 </body>
-</body>
-<script type="text/javascript">
-    function copyToClipboard(color) {
-        var temp_TextArea = document.createElement("textarea");
-        temp_TextArea.value = color;
-        document.body.appendChild(temp_TextArea);
-        temp_TextArea.select();
-        document.execCommand('copy');
-        document.body.removeChild(temp_TextArea);
-    }
-</script>
-<script src="../assets/main.js"></script>
 </html>
