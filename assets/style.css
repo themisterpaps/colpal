@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: source sans pro ,Arial, Helvetica, sans-serif
+    font-family: source sans pro, Arial, Helvetica, sans-serif;
 }
 html{
     font-size: 10px
@@ -16,7 +16,7 @@ body{
     overflow-x: hidden;
 }
 h2,h1,h3{
-    font-family:source sans pro;
+    font-family: source sans pro, Arial, Helvetica, sans-serif;
     padding: 1.8rem 0;
     color: #1f254e;
 }
@@ -34,7 +34,7 @@ a{
 }
 p{
     font-size: 1.5rem;
-    font-family:source sans pro;
+    font-family: source sans pro, Arial, Helvetica, sans-serif;
     font-weight: 400;
     letter-spacing: 1.2pt;
     color: rgba(31, 37, 78, 0.808);
