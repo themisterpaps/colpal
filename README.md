@@ -9,7 +9,7 @@
 Color recommendation, color pallets, Flat UI colors, Modern Gradients and Monochromatic Palettests website built with only web native technologies.
 
  ## Demo
-> [Check it live](http://themisterpaps/colpal).
+> [Check it live](themisterpaps.github.io/colpal).
 
 ## How it works
 This version is just a collection of hundreds and hundreds colors hand picked by me, divided in the follow sections: Gradients, Flat Design colors and Monochomatic colors.
