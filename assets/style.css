@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: source sans pro;
+    font-family: source sans pro ,Arial, Helvetica, sans-serif
 }
 html{
     font-size: 10px
