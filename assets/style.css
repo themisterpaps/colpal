@@ -419,6 +419,9 @@ margin-top: 5rem;
     align-items: center;
 }
 .quality--item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 1rem;
     width: 18rem;
     height: 18rem;
@@ -438,6 +441,7 @@ margin-top: 5rem;
 }
 .quality--item i{
     display: inline-block;
+    width: 100%;
     margin-top: 10px;
     font-size: 8.5rem;
     color: rgb(6, 119, 175);
@@ -897,8 +901,6 @@ label .menu {
             width: 13rem;}
             .quality--item i{
                 font-size:6.5rem;
-                width: 21rem ;
-                height: 21rem;
             }
     }
     .header--text__buttom{
