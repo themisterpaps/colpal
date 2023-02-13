@@ -11,6 +11,9 @@ Color recommendation, color pallets, Flat UI colors, Modern Gradients and Monoch
  ## Demo
 > [Check it live](https://themisterpaps.github.io/colpal).
 
+ ## Note about the code
+ The goal is to make this project using basic web technology: HTM/CSS and only in strict cases Javascript
+ 
 ## How it works
 This version is just a collection of hundreds and hundreds colors hand picked by me, divided in the follow sections: Gradients, Flat Design colors and Monochomatic colors.
 ## Requirements
