@@ -9,25 +9,23 @@
 Color recommendation, color pallets, Flat UI colors, Modern Gradients and Monochromatic Palettests website built with only web native technologies.
 > [Check it live](https://themisterpaps.github.io/colpal).
 
- ## Note about the codebase
- The goal is to make this project using basic web technology: HTM/CSS and only in strict cases Javascript
+ **Note**: The goal is to make this project using basic web technology: HTM/CSS and only in strict cases Javascript
+ **Requirements**: Literally no requirements at all
  
-## How it works
+## 1. How it works
 This version is just a collection of hundreds and hundreds colors hand picked by me, divided in the follow sections: Gradients, Flat Design colors and Monochomatic colors.
-## Requirements
-At this moment there are no requirements (but now I'm working in a new version of the susing more dynamic technolgies, maybe at this point this will use some dependencies).
 
-## How to Contribute
+### 1.1 How to add colors 
 > You can contribute by adding any color or gradient at [colors.css](assets/colors.css)
 
-### Add Gradients
+#### Add Gradients
    ```
     .hot-44{
             background: linear-gradient(#75cce8, #eabebf);
           }
       /*name*/  
    ```
-### Add Mononochromatic schema
+#### Add Mononochromatic schema
    ```
       .col-a-1{background-color: #142850;}
       .col-a-2{background-color:#27496d;}
@@ -38,5 +36,5 @@ At this moment there are no requirements (but now I'm working in a new version o
       /*I recommend a schema of 5 colors*/  
    ```
 **Obs:** Please don't forget to respect the order.
- # License
+ ## 2. License
  This project is under the [MIT](LICENSE.md) License 👌
