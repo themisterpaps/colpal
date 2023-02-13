@@ -5,7 +5,7 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/henriquechigumane/colpal)
  </div> 
 
-# Colpal – The Next Colors begins here 
+# Colpal – The Next Colors Begin Here
 Color recommendation, color pallets, Flat UI colors, Modern Gradients and Monochromatic Palettests website built with only web native technologies.
 > [Check it live](https://themisterpaps.github.io/colpal).
 
