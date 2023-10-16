@@ -1,22 +1,25 @@
 /*--------------------------------*/
 /*------------Resets----------*/
 /*--------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,200;1,9..40,300;1,9..40,400&display=swap');
 *,
 *:before,
 *:after {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: source sans pro, Arial, Helvetica, sans-serif;
+    font-family: 'DM Sans', sans-serif;
+    
 }
 html{
     font-size: 10px
 }
 body{
     overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 h2,h1,h3{
-    font-family: source sans pro, Arial, Helvetica, sans-serif;
     padding: 1.8rem 0;
     color: #1f254e;
 }
