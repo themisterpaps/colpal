@@ -364,7 +364,7 @@ margin-top: 5rem;
 }
 .pallets__display--text{
     display:inline-block;
-    text-align: left;
+    text-align: center;
     border: 1px solid rgba(102, 102, 102, 0.171);
     margin-top: 1rem;
     margin-left: 1rem;
@@ -374,6 +374,7 @@ margin-top: 5rem;
 .pallets__display--text h4{
     font-size: 1.5rem;
     color:rgba(58, 58, 75, 0.801);
+   
 }
 .pallets__display--text ul{
     font-family: 'Courier New', Courier, monospace;
