@@ -14,27 +14,39 @@
             <img src="assets/img/logos/png/cololpal_logo.png" alt="logo-nav">
         </div>
 
-        <ul>
-            <li><a href="#">Flat UI</a></li>
-            <li><a href="#">Gradient</a></li>
-            <li><a href="#">Color Collection</a></li>
-            <ul>
-                <li>Popular</li>
-                <li>Month</li>
-                <li>Year</li>
-            </ul>
+        <ul class="list-nav">
+            <la><a href="#">Flat UI</a></la>
+            <la><a href="#">Gradient</a></la>
+            <la><a href="#">Color Collection</a></la>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+           <div class="get-started"><a href="#">Get-Started</a></div> 
         </ul>
     </nav>
 
-    <div>
-        <h1>The Next Colors begins here</h1>
-        <p>Flat design or flat UI colors, gradients are quite popular in web design,today where bold, bright colors are
+    <div class="text-hero">
+        <h1 class="title">The Next Colors <br> begins here</h1>
+        <p class="paragrafo-hero">Flat design or flat UI colors, gradients are quite popular in web design,today <br> where bold, bright colors are
             used to
             create clean, simple interfaces.</p>
     </div>
     <div class="header--text__buttom">
-        <a class="buttom__normal buttom" href="generate.htm">Generate</a>
+        <a class="buttom__normal" href="generate.htm">Generate</a>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.menu');
+
+    menuToggle.addEventListener('click', function () {
+        menu.classList.toggle('active');
+    });
+    }); 
+    </script>
 </body>
 
 </html>
