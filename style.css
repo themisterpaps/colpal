@@ -8,6 +8,30 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.logo-nav {
-    max-width: 100px;
+/*nav-bar*/
+
+.logo-nav > img {
+    width: 200px;
 }
+
+.list-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+.list-nav > la > a {
+    text-decoration: none;
+    color:#495160;
+}
+
+.get-started {
+    color:#506BF0;
+    margin-left:300px;
+    background-color:#E6EAFC;
+    padding: 12px;
+    border-radius: 30px;
+}
+
